@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+class book{
+public:
+    string title;
+    int pages;
+    float rate;
+};
+
+int main(){
+    book book1;
+    book1.title="atomic habits";
+    book1.pages=226;
+    book1.rate=10;
+cout<<book1.title<<endl<<"pages numbers:"<<book1.pages<<"  rate is: "<<book1.rate<<endl;
+book book2;
+    book2.title="Eat That Frog!";
+    book2.pages=144;
+    book2.rate=8.5;
+cout<<book2.title<<endl<<"pages numbers:"<<book2.pages<<"  rate is: "<<book2.rate<<endl;
+}
+//or like that
+/*
+#include <iostream>
+using namespace std;
+class book{
+public:
+    string title;
+    int pages;
+    float rate;
+    book(string atitle,int apages,float arate){
+    title=atitle;
+    pages=apages;
+    rate=arate;
+    }
+};
+
+int main(){
+    book book1("atomic habits",226,10);
+cout<<book1.title<<endl<<"pages numbers:"<<book1.pages<<"  rate is: "<<book1.rate<<endl;
+    book book2("Eat That Frog!",144,8.5);
+cout<<book2.title<<endl<<"pages numbers:"<<book2.pages<<"  rate is: "<<book2.rate<<endl;
+
+}
+*/

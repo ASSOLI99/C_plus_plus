@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class chef{
+public:
+    void MakeChicken(){
+    cout<<"the chef make chicken"<<endl;
+    }
+    void MakeSalad(){
+    cout<<"the chef make salad"<<endl;
+    }
+    void MakeSoup(){
+    cout<<"the chef make soup"<<endl;
+    }
+
+};
+class italianChef : public chef{
+    public:
+void MakePasta(){
+cout<<"the chef make pasta"<<endl;
+}
+    void MakeChicken(){
+    cout<<"the chef make grill chicken"<<endl;
+    }
+};
+
+int main(){
+    chef chef;
+    chef.MakeSoup();
+    italianChef italianChef;
+    italianChef.MakeChicken();
+    return 0;
+}
+
