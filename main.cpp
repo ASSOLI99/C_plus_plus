@@ -3,6 +3,10 @@ using namespace std;
 
 int main()
 {
+    cout<<"whant to calculate (yes/no) :";
+string chois;
+cin>>chois;
+while(chois=="yes"){
     int x,y;
     char op;
     float answer;
@@ -31,10 +35,13 @@ cin>>y;
 }else {
 cout<<"incorrect operator";
 }
-
+cout<<endl<<"whant another one(yes/no) :";
+cin>>chois;
+}
 
 
 
 
 return 0;
 }
+//by assoli99 in github
