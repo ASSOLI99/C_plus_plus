@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+int num=9;
+int guess;
+int timeOfGuesses=0;
+int guessesLemets=3;
+cout<<"you have 3 tries to guess my favurate number"<<endl;
+while(num != guess && timeOfGuesses !=3){
+    cout<<"enter your guess: ";
+    cin>>guess;
+    timeOfGuesses++;
+}
+if(timeOfGuesses==guessesLemets){
+        cout<<"YOU LOSE!";
+}else{cout<<"YOU WIN!";
+}
+return 0;
+
+}

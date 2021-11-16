@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+
+int main()
+{
+string name;
+int age;
+cout<<"inter your name: ";
+cin>>name;
+cout<<"inter your age: ";
+cin>>age;
+
+cout <<"hello "<<name<<" "<<age<<" years old"<<endl;
+cout<<"now to calculater"<<endl;
+float x,y;
+cout<<"inter your first number: ";
+cin>>x;
+cout<<"inter your second number: ";
+cin>>y;
+cout <<x+y<<endl;
+cout<<"lets play agame -_-"<<endl;
+string color , game ,charname;
+cout<<"inter your character name: ";
+ cin>>charname;
+cout<<"inter your character favorite color: ";
+cin>>color;
+cout<<"inter your character best game: ";
+cin>>game;
+cout<<endl<<"there is some one named "<<charname<<endl;
+cout<<"he loved the "<<color<<" and he play "<<game<<endl;
+
+
+    cout << "Iam abd"<<endl;
+    cout << "Hello world!" << endl;
+    return 0;
+}
